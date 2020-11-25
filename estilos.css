@@ -1,0 +1,23 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-y:hidden;
+    line-height: 0;
+}
+
+#myMap{
+    height:90%;
+}
+
+#container_publicidad{
+    height: 10%;
+    background-color: black; 
+    padding: 10px;
+}
+
+#container_publicidad h1{
+    color: white; 
+    text-align: center;
+}
+
