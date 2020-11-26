@@ -2,7 +2,6 @@
 var ubicacion = [3.3745808, -76.5228922]
 var ubicacion_real = 0
 
-// var gasolineras = [[0, "Terpel San joaquin", [3.3772583, -76.524917], ["Diesel", "Corriente", "Extra"], [7000, 8000, 10000]], [1, "Esso Valle del lili", [3.3757564, -76.5241921], ["Diesel", "Corriente", "Extra"], [7000, 9000, 11000],],[2, "Esso Valle del lili", [3.3776112, -76.5379013], ["Diesel", "Corriente", "Extra"], [7000, 9000, 11000],]];
 
 var gasolineras = {
     "0": {
@@ -20,7 +19,7 @@ var gasolineras = {
         "precios_gasolina": [7700, 9800, 11000],
     },
     "2": {
-        "id": 1,
+        "id": 2,
         "nombre": "Texaco pampalinda",
         "ubicacion": [3.3776112, -76.5379013],
         "nombres_gasolina": ["Diesel", "Corriente", "Extra"],
@@ -28,17 +27,45 @@ var gasolineras = {
     },
     "3": {
         "id": 0,
-        "nombre": "Terpel jardin plaza",
+        "nombre": "Terpel Jardin plaza",
         "ubicacion": [3.3685699, -76.5294304],
         "nombres_gasolina": ["Diesel", "Corriente", "Extra"],
         "precios_gasolina": [7000, 8000, 10000],
     },
     "4": {
         "id": 0,
-        "nombre": "Terpel caney",
+        "nombre": "Terpel Caney",
         "ubicacion": [3.3801929, -76.5217335],
         "nombres_gasolina": ["Diesel", "Corriente", "Extra"],
         "precios_gasolina": [7000, 8000, 10000],
+    },
+    "5": {
+    "id": 0,
+    "nombre": "Terpel Melendez",
+    "ubicacion": [3.3766191, -76.5476034],
+    "nombres_gasolina": ["Diesel", "Corriente", "Extra"],
+    "precios_gasolina": [7000, 8000, 10000],
+    },
+    "6": {
+    "id": 0,
+    "nombre": "Terpel Pasoancho",
+    "ubicacion": [3.38431181, -76.5383936],
+    "nombres_gasolina": ["Diesel", "Corriente", "Extra"],
+    "precios_gasolina": [7000, 8000, 10000],
+    },
+    "7": {
+    "id": 1,
+    "nombre": "Esso Pasoancho",
+    "ubicacion": [3.3833947,-76.5369269],
+    "nombres_gasolina": ["Diesel", "Corriente", "Extra"],
+    "precios_gasolina": [7000, 8000, 10000],
+    },
+    "7": {
+    "id": 0,
+    "nombre": "Terpel La Hacienda",
+    "ubicacion": [3.3894302,-76.5361815],
+    "nombres_gasolina": ["Diesel", "Corriente", "Extra"],
+    "precios_gasolina": [7000, 8000, 10000],
     }
 }
 
